@@ -76,6 +76,15 @@
 	margin-bottom: 16px;
 }
 
+@media (max-width: 768px) {
+	.expertise-cards-content {
+		margin-bottom: 24px;
+	}
+	.expertise {
+		padding-bottom: 56px;
+	}
+}
+
 @media (max-width: 576px) {
 	.expertise {
 		padding-top: 40px;
@@ -84,10 +93,6 @@
 
 	.expertise-cards {
 		margin: 0;
-	}
-
-	.expertise-cards-content {
-		margin-bottom: 24px;
 	}
 
 	.expertise h2 {
