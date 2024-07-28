@@ -1,19 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <div class="home-header">
+      <div class="home-header-container container container-md container-sm">
+        <div class="header-content">
+          <p class="primary-color">Promise-Desert 2020 早春系列</p>
+          <h2 class="primary-color fw-bold">看得清，才能看得遠</h2>
+          <a href="#" class="btn fw-medium">立即購買</a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="expertise">
+        <div class="container container-md container-sm">
+          <h2 class="fw-bold primary-color">用專業的心，做專業的事</h2>
+          <ul class="expertise-cards row">
+            <li class="expertise-cards-content text-align-c col-3 col-md-6 col-sm-12">
+              <span class="material-symbols-outlined primary-color fw-bold">paid</span>
+              <h3 class="primary-color fw-bold">單一價格</h3>
+              <p class="text-align-l">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </li>
+            <li class="expertise-cards-content text-align-c col-3 col-md-6 col-sm-12">
+              <span class="material-symbols-outlined primary-color fw-bold">schedule</span>
+              <h3 class="primary-color fw-bold">20 分鐘即可取件</h3>
+              <p class="text-align-l">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            </li>
+            <li class="expertise-cards-content text-align-c col-3 col-md-6 col-sm-12">
+              <span class="material-symbols-outlined primary-color fw-bold">favorite</span>
+              <h3 class="primary-color fw-bold">安心售後服務</h3>
+              <p class="text-align-l">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            </li>
+            <li class="expertise-cards-content text-align-c col-3 col-md-6 col-sm-12">
+              <span class="material-symbols-outlined primary-color fw-bold">voicemail</span>
+              <h3 class="primary-color fw-bold">關於鏡片</h3>
+              <p class="text-align-l">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="frames">
+        <div class="container container-md container-sm">
+          <h2 class="fw-bold primary-color text-align-c">經典系列鏡框</h2>
+          <ul class="frames-cards row">
+            <li class="frames-cards-content col-4 col-md-6 col-sm-12">
+              <img src="img/home-section3-1.png" alt="OPTICAL">
+              <h3 class="text-align-c">OPTICAL</h3>
+            </li>
+            <li class="frames-cards-content col-4 col-md-6 col-sm-12">
+              <img src="img/home-section3-2.png" alt="SUNGLASSES">
+              <h3 class="text-align-c">SUNGLASSES</h3>
+            </li>
+            <li class="frames-cards-content col-4 col-md-6 col-sm-12">
+              <img src="img/home-section3-3.png" alt="FUNCTIONAL">
+              <h3 class="text-align-c">FUNCTIONAL</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="design design-full-screen">
+        <div class="container container-md container-sm">
+          <h2 class="fw-bold text-align-c">聯名設計鏡框</h2>
+          <ul class="design-cards">
+            <li class="design-cards-content">
+              <img src="img/home-section4-1.png" alt="DOUBLE A+">
+              <h3 class="text-align-c">DOUBLE A+</h3>
+            </li>
+            <li class="design-cards-content">
+              <img src="img/home-section4-2.png" alt="YOUTH">
+              <h3 class="text-align-c">YOUTH</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="design design-sm-screen">
+        <div class="container container-sm">
+          <h2 class="fw-bold text-align-c">聯名設計鏡框</h2>
+          <ul class="design-cards">
+            <li class="design-cards-content">
+              <img src="img/home-section4-1-sm.png" alt="DOUBLE A+">
+              <h3 class="text-align-c">DOUBLE A+</h3>
+            </li>
+            <li class="design-cards-content">
+              <img src="img/home-section4-2-sm.png" alt="YOUTH">
+              <h3 class="text-align-c">YOUTH</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="endorsement">
+        <div class="container container-md container-sm">
+          <h2 class="fw-bold text-align-c primary-color">顧客推薦</h2>
+          <ul class="endorsement-cards row">
+            <li class="endorsement-cards-content col-3 col-md-6  col-sm-12">
+              <img src="img/home-section5-1.png" alt="customer-1">
+              <div class="customer customer-1">
+                <div class="customer-content">
+                  <h3 class="fw-medium">Jessy</h3>
+                  <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+                </div>
+                <time datetime="2021-06-20">2021-06-20</time>
+              </div>
+            </li>
+            <li class="endorsement-cards-content col-3 col-md-6 col-sm-12">
+              <img src="img/home-section5-2.png" alt="customer-2">
+              <div class="customer customer-2">
+                <div class="customer-content">
+                  <h3 class="fw-medium">凱倫</h3>
+                  <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！ 20 分鐘即可完成。</p>
+                </div>
+                <time datetime="2021-04-18">2021-04-18</time>
+              </div>
+            </li>
+            <li class="endorsement-cards-content col-3 col-md-6 col-sm-12">
+              <img src="img/home-section5-3.png" alt="customer-3">
+              <div class="customer customer-3">
+                <div class="customer-content">
+                  <h3 class="fw-medium">悠悠</h3>
+                  <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                </div>
+                <time datetime="2020-12-25">2020-12-25</time>
+              </div>
+            </li>
+            <li class="endorsement-cards-content col-3 col-md-6 col-sm-12">
+              <img src="img/home-section5-4.png" alt="customer-4">
+              <div class="customer customer-4">
+                <div class="customer-content">
+                  <h3 class="fw-medium">Kyuan</h3>
+                  <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+                </div>
+                <time datetime="2020-10-31">2020-10-31</time>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-container">
+          <h2 class="fw-bold text-align-c primary-color">聯絡我們</h2>
+          <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+          <form action="index.html">
+            <div class="mb-16 name">
+              <label for="name">姓名</label>
+              <input id="name" type="text" placeholder="王小明" name="name">
+            </div>
+            <div class="mb-16 tel">
+              <label for="tel">聯絡電話</label>
+              <input id="tel" type="tel" placeholder="0912-345-678" name="tel">
+            </div>
+            <div class="mb-16 email">
+              <label for="email">電子郵件</label>
+              <input id="email" type="email" placeholder="example@email.com" name="email">
+            </div>
+            <div class="mb-16 question">
+              <label for="question">意見反應</label>
+              <input id="question" type="text" placeholder="請輸入您的意見" name="question">
+            </div>
+            <div class="check">
+              <input type="checkbox" name="hobby" value="music">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+            </div>
+          </form>
+          <div class="btn">
+            <a href="#" class="contact-btn">確認送出</a>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
