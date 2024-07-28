@@ -1,5 +1,5 @@
 .home-header {
-	background-image: url(../assets/images/home-header.png);
+	background-image: url(.../assets/images/home-header.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -36,7 +36,7 @@
 
 @media (max-width: 768px) {
 	.home-header {
-		background-image: url(../assets/images/home-header-sm.png);
+		background-image: url(.../assets/images/home-header-sm.png);
 	}
 }
 
@@ -159,7 +159,7 @@
 }
 
 .design {
-	background-image: url("../assets/images/index-bg.png");
+	background-image: url(".../assets/images/index-bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -188,7 +188,7 @@
 	}
 
 	.design {
-		background-image: url("../assets/images/index-bg-sm.png");
+		background-image: url(".../assets/images/index-bg-sm.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
