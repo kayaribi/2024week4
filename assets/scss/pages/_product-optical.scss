@@ -13,12 +13,15 @@
         display: block;
         font-size: 2rem;
         color: black;
-        border-bottom: 8px solid transparent;
         padding-top: 24px;
         padding-bottom: 16px;
     }
 
     a:hover {
+        border-bottom: 8px solid #AA0601;
+    }
+
+    .action a{
         border-bottom: 8px solid #AA0601;
     }
 }
@@ -189,6 +192,11 @@
         color: #ffffff;
     }
 
+}
+
+.page-2 a{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 @media (max-width: 576px) {
