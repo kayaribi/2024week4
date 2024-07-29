@@ -1,0 +1,118 @@
+.store {
+    font-size: 48px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+}
+
+@media (max-width: 768px) {
+    .store {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .store {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .city {
+        font-size: 24px;
+        margin-right: 16px;
+        white-space: nowrap;
+    }
+
+    .city-select {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        font-size: 18px;
+        color: #495057;
+        border: 1px solid #CED4DA;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .area {
+        margin-bottom: 24px;
+
+        .city {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+    }
+    .area-container {
+        max-width: 100%;
+    }
+
+}
+
+.store-card {
+    padding-bottom: 32px;
+
+    .material-symbols-outlined {
+        font-size: 24px;
+    }
+
+    li {
+        margin-bottom: 48px;
+    }
+
+    .store-name {
+        font-size: 24px;
+        padding: 8px 0px 8px 24px;
+        border: 1px solid #00000020;
+    }
+
+    .store-content {
+        padding: 16px 24px 8px 24px;
+        border: 1px solid #00000020;
+    }
+
+    .store-tel,
+    .store-clock,
+    .store-address {
+        display: flex;
+        gap: 8px;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    a {
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    a:hover {
+        background-color: #9F1213;
+    }
+}
+
+@media (max-width: 768px) {
+    .store-card {
+        padding-bottom: 56px;
+        li {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .store-card {
+        padding-bottom: 40px;
+    }
+}
