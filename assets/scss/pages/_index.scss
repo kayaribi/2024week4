@@ -25,13 +25,13 @@
 
 .header-content .btn {
 	padding: 6px 12px;
-	background-color: var(--text-color);
+	background-color: $text-color;
 	color: #FFFFFF;
 	font-size: 20px;
 }
 
 .header-content .btn:hover {
-	background-color: var(--primary);
+	background-color: $primary;
 }
 
 @media (max-width: 768px) {
@@ -125,7 +125,7 @@
 	font-size: 2.5vw;
 	font-style: italic;
 	font-weight: 900;
-	color: var(--text-color);
+	color: $text-color;
 }
 
 @media (max-width: 768px) {
@@ -183,7 +183,7 @@
 	font-style: italic;
 	font-weight: 900;
 	padding: 8px 0;
-	color: var(--text-color);
+	color: $text-color;
 	background-color: #FFFFFF;
 }
 

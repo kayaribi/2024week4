@@ -18,11 +18,11 @@
     }
 
     a:hover {
-        border-bottom: 8px solid #AA0601;
+        border-bottom: 8px solid $text-color;
     }
 
     .action a{
-        border-bottom: 8px solid #AA0601;
+        border-bottom: 8px solid $text-color;
     }
 }
 
@@ -117,7 +117,7 @@
     }
 
     .price {
-        color: #AA0601;
+        color: $text-color;
         font-size: 1.25vw;
     }
 
@@ -154,7 +154,7 @@
         }
 
         .price {
-            color: #AA0601;
+            color: $text-color;
             font-size: 1.5rem;
         }
     }
