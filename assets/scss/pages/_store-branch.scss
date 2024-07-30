@@ -3,9 +3,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 .branch-card {
-    width: 40%;
+    width: 41.6%;
+    padding-left: 12px;
+    padding-right: 12px;
     .material-symbols-outlined {
         font-size: 24px;
     }
@@ -49,7 +53,9 @@
 }
 
 iframe {
-    width: 57%;
+    width: 58.4%;
+    padding-left: 12px;
+    padding-right: 12px;
     height: auto;
 }
 
